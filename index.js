@@ -13,7 +13,7 @@ var nourriture2 = document.getElementById('A');
 	console.log(nom2)
 	var form = document.querySelector('form');
 	console.log(form);
-	var text = `Les restaurant s'activaient autour de la ${endroit.value}. Mais tout le monde savait que le restaurant le plus cotoyer etait Les ${nom1.value} car en Belgique chaque restaurant ayant des ${nourriture.value} monte d'un cran. Mais un jour un restaurant appelé ${nom2.value} arriva sur la ${endroit.value} et a partir de ce jour tout changea. Les ${nom2.value} de venir les plus cotoyer de la ${endroit.value} grace a leurs ${nourriture2.value}.`
+	var text = `Les restaurants s'activaient autour de la ${endroit.value}. Mais tout le monde savait que le restaurant le plus fréquenté était "les ${nom1.value}" car en Belgique chaque restaurant ayant des ${nourriture.value} monte d'un cran. Mais un jour un restaurant appelé "${nom2.value}" arriva sur la ${endroit.value} et à partir de ce jour tout changea. Les "${nom2.value}" devint le plus fréquenté de la ${endroit.value} grâce à leurs ${nourriture2.value}.`
 	console.log(text);
 var output = document.getElementById('output');
 
